@@ -1,11 +1,10 @@
 import java.util.List;
 
 public class Street {
-    //Attributes Private
+    private int number;
     private String name;
     private List<House> houses;
 
-    //methods public's
     public String getName() {
         return name;
     }
@@ -13,7 +12,6 @@ public class Street {
         this.name = name;
     }
 
-    //Functionless
     public void addHouse(int number, House house){
         this.houses.add(house);
     }
